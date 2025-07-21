@@ -20,27 +20,34 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Objectifs et principes
-    target: "/le-projet/objectifs-et-principes/"
+  - title: Présentation
+    target: "/le-projet/"
     kind: page
     new_tab: false
-    children: []
-    path: "/pages/le-projet/objectifs-et-principes"
-    file: content/fr/pages/le-projet/objectifs-et-principes/_index.html
-  - title: Structures
-    target: "/le-projet/structures/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/le-projet/structures"
-    file: content/fr/pages/le-projet/structures/_index.html
-  - title: Équipe pédagogique
-    target: "/le-projet/equipe-pedagogique/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/le-projet/equipe-pedagogique"
-    file: content/fr/pages/le-projet/equipe-pedagogique/_index.html
+    children:
+    - title: Objectifs et principes
+      target: "/le-projet/objectifs-et-principes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-projet/objectifs-et-principes"
+      file: content/fr/pages/le-projet/objectifs-et-principes/_index.html
+    - title: Structures
+      target: "/le-projet/structures/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-projet/structures"
+      file: content/fr/pages/le-projet/structures/_index.html
+    - title: Équipe pédagogique
+      target: "/le-projet/equipe-pedagogique/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-projet/equipe-pedagogique"
+      file: content/fr/pages/le-projet/equipe-pedagogique/_index.html
+    path: "/pages/le-projet"
+    file: content/fr/pages/le-projet/_index.html
   path: "/pages/le-projet"
   file: content/fr/pages/le-projet/_index.html
 
