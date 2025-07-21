@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-04-29T16:15:32+02:00
-lastmod: 2025-05-20T11:31:39+02:00
+lastmod: 2025-07-21T09:46:38+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-04-29T16:15:32+02:00
-    updated_at: 2025-05-20T11:31:39+02:00
+    updated_at: 2025-07-21T09:46:38+02:00
     published_at: 2025-04-29T16:15:32+02:00
 search:
   id: "80652d6e-23de-4a22-b8e8-1aeb0c610de6"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Implanté à Marseille depuis 2015, l'orchestre Démos Marseille permet à 120 enfants âgés de 7 à 12 ans et relevant de la Politique de la ville de Marseille, d'accéder à la pratique orchestrale. Démos est un dispositif d'éducation musicale et orchestrale.</p>
   body: >-
-    <p>  <br>Démos œuvre en faveur de la démocratisation culturelle par la pratique musicale en orchestre et forme les futurs citoyens du XXIe siècle. Il propose un apprentissage de la musique classique à des enfants de 7 à 12 ans éloignés de cette pratique pour des raisons économiques, sociales ou géographiques.</p>  <p> Agenda </p>
+    <p>  <br>Démos œuvre en faveur de la démocratisation culturelle par la pratique musicale en orchestre et forme les futurs citoyens du XXIe siècle. Il propose un apprentissage de la musique classique à des enfants de 7 à 12 ans éloignés de cette pratique pour des raisons économiques, sociales ou géographiques.</p>  <p> Actualités </p>  <p> Agenda </p>  <p>Aucun événement de prévu.</p>
 
 breadcrumbs:
   - title: >-
@@ -79,7 +79,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 13
+  seconds: 15
   text: >-
     moins d'une minute
 contents:
@@ -113,42 +113,20 @@ contents:
   - kind: block
     template: posts
     title: >-
-      
+      Actualités
     slug: >-
-      
+      actualites
     ranks:
       base: 2
+      self: 2
+      children: 3
     top:
-      active: false
-    data:
-      mode: all
-      all: true
-      layout: grid
-      options:
-        author: false
-        categories: false
-        date: false
-        image: true
-        reading_time: false
-        subtitle: true
-        summary: true
-
-      posts:
-
-      quantity: 0
-
-
-
-  - kind: block
-    template: posts
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 2
-    top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/actualites/"
     data:
       mode: all
       all: true
@@ -163,9 +141,64 @@ contents:
         summary: true
 
       posts:
+        - permalink: "/actualites/2025-07-21-grandes-emotions-lors-de-la-ceremonie-de-remises-des-instruments-au-conservatoire-de-marseille/"
+          path: "/posts/2025/2025-07-21-grandes-emotions-lors-de-la-ceremonie-de-remises-des-instruments-au-conservatoire-de-marseille"
+          slug: "grandes-emotions-lors-de-la-ceremonie-de-remises-des-instruments-au-conservatoire-de-marseille"
+          file: "content/fr/posts/2025/2025-07-21-grandes-emotions-lors-de-la-ceremonie-de-remises-des-instruments-au-conservatoire-de-marseille.html"
+          name: >-
+            Grandes émotions lors de la Cérémonie de remises des instruments au Conservatoire de Marseille
 
-      quantity: 0
+      quantity: 1
 
+
+  - kind: block
+    template: agenda
+    title: >-
+      Agenda
+    slug: >-
+      agenda
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Agenda
+        heading: 2
+        link: "/agenda/"
+    data:
+      mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
+      options:
+        categories: true
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+      description: >-
+        
+
+      no_event_message: >-
+        Aucun événement de prévu.
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2024/journee-stage/"
+          path: "/events/2025/12/08-09-00-journee-stage"
+          slug: "journee-stage"
+          file: "content/fr/events/2025/12/08-09-00-journee-stage.html"
+          name: >-
+            Journée stage
+
+      quantity: 1
 
 
 ---
