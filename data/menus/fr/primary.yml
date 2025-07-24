@@ -57,4 +57,9 @@ items:
   children: []
   path: "/pages/espace-parents"
   file: content/fr/pages/espace-parents/_index.html
+- title: Site du conservatoire Pierre Barbizet de Marseille
+  target: https://www.conservatoiredemarseille.fr/
+  kind: url
+  new_tab: true
+  children: []
 
