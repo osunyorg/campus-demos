@@ -1,14 +1,23 @@
 footer#document-footer
     @include media-breakpoint-up(desktop)
-        display: flex
-        justify-content: space-between
-        .container:nth-child(2)
-            flex-direction: column
-            text-align: right
-            padding-top: 0
-
-.campus-sub-footer
-    background: var(--color-background-alt)
+        .footer-legals
+            display: flex
+            flex-wrap: wrap
+            gap: $spacing-3
+            ul
+                display: flex
+                gap: $spacing-3
+            li, > *
+                margin: 0
+    .campus-sub-footer
+        background: var(--color-background-alt)
+        align-items: start
+        .footer__presentation
+            ul
+                margin-top: $spacing-3
+                li
+                    @include small
+                    margin: 0 !important
 
 .toc
     li
