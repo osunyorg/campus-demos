@@ -1,6 +1,6 @@
 default:
 contents_reading_time:
-  seconds: 21
+  seconds: 23
   text: >-
     moins d'une minute
 contents:
@@ -17,7 +17,7 @@ contents:
     data:
       layout: accent_background
       text: >-
-        <p>Démos œuvre en faveur de la démocratisation culturelle par la pratique musicale en orchestre et forme les futurs citoyens du XXI<sup>e</sup> siècle. Il propose un apprentissage de la musique classique à des enfants de 7 à 12 ans éloignés de cette pratique pour des raisons économiques, sociales ou géographiques.Initié en 2010 et coordonné par la Cité de la musique - Philharmonie de Paris, Démos se déploie sur le territoire national en lien avec les collectivités territoriales.</p>
+        <p>Démos (Dispositif d'éducation musicale et orchestrale à vocation sociale) œuvre en faveur de la démocratisation culturelle par la pratique musicale en orchestre et forme les futurs citoyens du XXI<sup>e</sup> siècle. Il propose un apprentissage de la musique classique à des enfants de 7 à 12 ans éloignés de cette pratique pour des raisons économiques, sociales ou géographiques. Initié en 2010 et coordonné par la Cité de la musique - Philharmonie de Paris, Démos se déploie sur le territoire national en lien avec les collectivités territoriales.</p>
 
       notes: >-
         
