@@ -2,78 +2,109 @@
 title: Menu principal
 items:
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Le projet
+  slug: le-projet
   target: "/le-projet/"
   kind: page
   new_tab: false
   children:
   - title: Présentation
+    slug: presentation
     target: "/le-projet/"
     kind: page
     new_tab: false
     children:
     - title: Objectifs et principes
+      slug: objectifs-et-principes
       target: "/le-projet/objectifs-et-principes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-projet/objectifs-et-principes"
       file: content/fr/pages/le-projet/objectifs-et-principes/_index.html
     - title: Structures
+      slug: structures
       target: "/le-projet/structures/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-projet/structures"
       file: content/fr/pages/le-projet/structures/_index.html
     - title: Équipe pédagogique
+      slug: equipe-pedagogique
       target: "/le-projet/equipe-pedagogique/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-projet/equipe-pedagogique"
       file: content/fr/pages/le-projet/equipe-pedagogique/_index.html
     - title: Partenaires
+      slug: partenaires
       target: "/le-projet/partenaires/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-projet/partenaires"
       file: content/fr/pages/le-projet/partenaires/_index.html
+    descendants_targets:
+    - "/le-projet/equipe-pedagogique/"
+    - "/le-projet/objectifs-et-principes/"
+    - "/le-projet/partenaires/"
+    - "/le-projet/structures/"
     path: "/pages/le-projet"
     file: content/fr/pages/le-projet/_index.html
+  descendants_targets:
+  - "/le-projet/"
+  - "/le-projet/equipe-pedagogique/"
+  - "/le-projet/objectifs-et-principes/"
+  - "/le-projet/partenaires/"
+  - "/le-projet/structures/"
   path: "/pages/le-projet"
   file: content/fr/pages/le-projet/_index.html
 - title: Nous soutenir
+  slug: nous-soutenir
   target: "/mecenat/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mecenat"
   file: content/fr/pages/mecenat/_index.html
 - title: Espace parents
+  slug: espace-parents
   target: "/espace-parents/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/espace-parents"
   file: content/fr/pages/espace-parents/_index.html
 - title: Conservatoire Pierre Barbizet de Marseille
+  slug: conservatoire-pierre-barbizet-de-marseille
   target: https://www.conservatoiredemarseille.fr/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
