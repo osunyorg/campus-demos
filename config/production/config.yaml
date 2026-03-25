@@ -7,6 +7,10 @@ osuny:
   website:
     id: 1c62fb29-c2f0-4f7e-a56f-2c8ebb812e9a
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "demos.conservatoiredemarseille.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
