@@ -13,32 +13,3 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
-
-[[redirects]]
-from = "/equipe/categories/demos/proffeseures-demos/"
-to = "/equipe/categories/demos/professeures-demos/"
-
-[[redirects]]
-from = "/actualites/2026-02-09-demos-marseille-vous-souhaite-de-belles-fetes-de-fin-dannee/"
-to = "/actualites/2025-12-31-demos-marseille-vous-souhaite-de-belles-fetes-de-fin-dannee/"
-
-[[redirects]]
-from = "/agenda/2026/partielles-sans-chef-14-fevrier/"
-to = "/agenda/2026/partielles-avec-chef/"
-
-[[redirects]]
-from = "/structures/"
-to = "/le-projet/structures/"
-
-[[redirects]]
-from = "/agenda/2026/partielles-avec-chef-14-fevrier/"
-to = "/agenda/2026/partielles-avec-chef/"
-
-[[redirects]]
-from = "/actualites/2025-10-10-stage-du-20-au-24-octobre-au-conservatoire-1/"
-to = "/actualites/2025-12-15-dernier-tutti-2025/"
-
-[[redirects]]
-from = "/actualites/2025-07-21-grandes-emotions-lors-de-la-ceremonie-de-remises-des-instruments-au-conservatoire-de-marseille/"
-to = "/actualites/2025-02-21-grandes-emotions-lors-de-la-ceremonie-de-remises-des-instruments-au-conservatoire-de-marseille/"
-
