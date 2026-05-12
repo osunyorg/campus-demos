@@ -100,8 +100,8 @@ items:
   descendants_targets: []
   path: "/pages/espace-parents"
   file: content/fr/pages/espace-parents/_index.html
-- title: Conservatoire Pierre Barbizet de Marseille
-  slug: conservatoire-pierre-barbizet-de-marseille
+- title: Site du CPBM
+  slug: site-du-cpbm
   target: https://www.conservatoiredemarseille.fr/
   kind: url
   new_tab: true
