@@ -35,6 +35,10 @@ from = "/agenda/2026/partielles-avec-chef-14-fevrier/index.html"
 to = "/agenda/2026/partielles-avec-chef/"
 
 [[redirects]]
+from = "/agenda/2025/stage-vacances-apprenantes/index.html"
+to = "/agenda/2026/stage-vacances-apprenantes/"
+
+[[redirects]]
 from = "/actualites/2025-10-10-stage-du-20-au-24-octobre-au-conservatoire-1/index.html"
 to = "/actualites/2025-12-15-dernier-tutti-2025/"
 
