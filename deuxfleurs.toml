@@ -31,6 +31,10 @@ from = "/structures/index.html"
 to = "/le-projet/structures/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/dpor-mawsili-fog-ennakhal-ps-voixpdf/"
+
+[[redirects]]
 from = "/agenda/2026/partielles-avec-chef-14-fevrier/index.html"
 to = "/agenda/2026/partielles-avec-chef/"
 
